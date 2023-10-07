@@ -1,0 +1,27 @@
+{
+  "name": "alloy",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.25",
+    "@types/react-dom": "^18.2.11",
+    "@types/react-native": "^0.72.3",
+    "@walless/eslint-config": "^0.0.5",
+    "@walless/tsconfig": "^0.0.1",
+    "raf": "^3.4.1",
+    "react-native": "^0.72.5",
+    "react-native-reanimated": "^3.5.4",
+    "turbo": "latest"
+  },
+  "packageManager": "yarn@3.6.1"
+}

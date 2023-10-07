@@ -1,0 +1,12 @@
+.idea
+.vscode
+.prettierrc
+.history
+.yarn
+.turbo
+.swc
+.DS_Store
+
+node_modules
+
+/tauri/target/
