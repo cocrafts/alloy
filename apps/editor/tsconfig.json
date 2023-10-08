@@ -1,9 +1,8 @@
 {
   "extends": "@walless/tsconfig/application.json",
   "include": [
-    "index*.js",
     "src",
-    "scripts",
+    "index*.js",
 		"../../globals.d.ts"
   ],
   "exclude": [
@@ -16,9 +15,6 @@
       "DOM",
       "ES2015",
       "WebWorker"
-    ],
-    "types": [
-      "chrome"
     ],
     "typeRoots": [
       "node_modules/@types",
