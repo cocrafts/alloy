@@ -1,7 +1,8 @@
 import type { FC } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { invoke } from '@tauri-apps/api';
-import Editor from 'components/Editor';
+import Simulator from 'components/Simulator';
+import { onSceneReady } from 'engine/simulator';
 
 export const App: FC = () => {
 	const onInvoke = async (): Promise<void> => {
@@ -11,7 +12,7 @@ export const App: FC = () => {
 
 	return (
 		<View style={styles.container}>
-			<Editor style={styles.editorContainer} />
+			<Simulator style={styles.editorContainer} onSceneReady={onSceneReady} />
 		</View>
 	);
 };
@@ -21,6 +22,10 @@ export default App;
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
+		backgroundColor: 'green',
 	},
-	editorContainer: {},
+	editorContainer: {
+		flex: 1,
+		backgroundColor: 'red',
+	},
 });

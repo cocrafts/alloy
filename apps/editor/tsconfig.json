@@ -25,8 +25,8 @@
       "components/*": [
         "./src/components/*"
       ],
-      "stacks/*": [
-        "./src/stacks/*"
+      "engine/*": [
+        "./src/engine/*"
       ],
       "screens/*": [
         "./src/screens/*"

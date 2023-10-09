@@ -1,0 +1,10 @@
+{
+  "extends": "@walless/tsconfig/application.json",
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "typeRoots": [
+      "../../node_modules/@types"
+    ]
+  }
+}
