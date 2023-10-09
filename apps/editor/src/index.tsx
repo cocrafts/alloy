@@ -1,6 +1,7 @@
 import type { FC } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { invoke } from '@tauri-apps/api';
+import Editor from 'components/Editor';
 
 export const App: FC = () => {
 	const onInvoke = async (): Promise<void> => {
@@ -10,7 +11,7 @@ export const App: FC = () => {
 
 	return (
 		<View style={styles.container}>
-			<Text onPress={onInvoke}>App</Text>
+			<Editor style={styles.editorContainer} />
 		</View>
 	);
 };
@@ -20,7 +21,6 @@ export default App;
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		alignItems: 'center',
-		justifyContent: 'center',
 	},
+	editorContainer: {},
 });
