@@ -19,5 +19,8 @@
     "react-native-web": "^0.18.12",
     "react-router-dom": "^6.10.0",
     "valtio": "1.10.5"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0"
   }
 }
