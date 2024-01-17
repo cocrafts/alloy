@@ -13,12 +13,13 @@
     "eslint": "8.38.0"
   },
   "dependencies": {
-    "@babylonjs/core": "6.0.0",
-    "@babylonjs/gui": "6.0.0",
-    "@babylonjs/loaders": "6.0.0",
-    "@babylonjs/materials": "6.0.0",
-    "@babylonjs/post-processes": "6.0.0",
-    "@babylonjs/procedural-textures": "6.0.0",
-    "react-native-safe-area-context": "^4.7.2"
+    "@babylonjs/core": "6.38.1",
+    "@babylonjs/gui": "6.38.1",
+    "@babylonjs/loaders": "6.38.1",
+    "@babylonjs/materials": "6.35.0",
+    "@babylonjs/post-processes": "6.35.0",
+    "@babylonjs/procedural-textures": "6.35.0",
+    "react-babylonjs": "^3.1.27",
+    "react-native-safe-area-context": "^4.8.2"
   }
 }

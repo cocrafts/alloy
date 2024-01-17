@@ -10,3 +10,4 @@
 node_modules
 
 /tauri/target/
+apps/pixeverse/metacraft

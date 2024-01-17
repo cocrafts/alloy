@@ -1,14 +1,10 @@
 import type { FC } from 'react';
 import { Scene } from 'react-babylonjs';
-import type { Camera } from '@babylonjs/core';
 import { Vector3 } from '@babylonjs/core';
 import SpinningBox from 'components/SpinningBox';
+import type { SceneProps } from 'utils/interfaces';
 
-interface Props {
-	onCameraCreated: (instance: Camera) => void;
-}
-
-export const DemoScene: FC<Props> = ({ onCameraCreated }) => {
+export const DemoScene: FC<SceneProps> = ({ onCameraCreated }) => {
 	return (
 		<Scene onSceneMount={() => console.log('mounted!')}>
 			<freeCamera

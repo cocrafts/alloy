@@ -16,9 +16,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@alloy/engine@workspace:packages/engine"
   dependencies:
-    "@babylonjs/core": 6.35.0
-    "@babylonjs/gui": 6.35.0
-    "@babylonjs/loaders": 6.35.0
+    "@babylonjs/core": 6.38.1
+    "@babylonjs/gui": 6.38.1
+    "@babylonjs/loaders": 6.38.1
     "@babylonjs/materials": 6.35.0
     "@babylonjs/post-processes": 6.35.0
     "@babylonjs/procedural-textures": 6.35.0
@@ -1643,30 +1643,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babylonjs/core@npm:6.35.0":
-  version: 6.35.0
-  resolution: "@babylonjs/core@npm:6.35.0"
-  checksum: 56eacccc2f03c053f71287217d1f9937b2f21e7d4736851ad0553a0cb34fdadcd41c7f640df8e162c6963d3a26bb7ac5cbcdea3e07030b4d0564299a804e2cfa
-  languageName: node
-  linkType: hard
-
-"@babylonjs/core@npm:^6.38.1":
+"@babylonjs/core@npm:6.38.1":
   version: 6.38.1
   resolution: "@babylonjs/core@npm:6.38.1"
   checksum: 8a32ebcfc1a587adde7340e8e7c1ed15e67f9353c35cf8d1563854c1b86ec826a336349dd00a2f4e69fd481b00325bbda1482541fcdf470d43260483278a97de
   languageName: node
   linkType: hard
 
-"@babylonjs/gui@npm:6.35.0":
-  version: 6.35.0
-  resolution: "@babylonjs/gui@npm:6.35.0"
-  peerDependencies:
-    "@babylonjs/core": ^6.0.0
-  checksum: b0ce006191c5f3fff3b2cbaa5e9857d4a5ca62921f5dbcf6fd6bc9f5ff4cb40562927cf85274a1fbde42deb40d5f21413d76cc3c6fd53035531b36471a3ca792
-  languageName: node
-  linkType: hard
-
-"@babylonjs/gui@npm:^6.38.1":
+"@babylonjs/gui@npm:6.38.1":
   version: 6.38.1
   resolution: "@babylonjs/gui@npm:6.38.1"
   peerDependencies:
@@ -1675,17 +1659,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babylonjs/loaders@npm:6.35.0":
-  version: 6.35.0
-  resolution: "@babylonjs/loaders@npm:6.35.0"
-  peerDependencies:
-    "@babylonjs/core": ^6.0.0
-    babylonjs-gltf2interface: ^6.0.0
-  checksum: 97018391de2a55ec8c5622685c84a070193d77dfdfe0e1a509654896ce45895dee9345237196a661bb21186c690ea2ad780cf7c1b5ab0bde08315e4a3c799850
-  languageName: node
-  linkType: hard
-
-"@babylonjs/loaders@npm:^6.38.1":
+"@babylonjs/loaders@npm:6.38.1":
   version: 6.38.1
   resolution: "@babylonjs/loaders@npm:6.38.1"
   peerDependencies:
@@ -3062,14 +3036,14 @@ __metadata:
     "@alloy/engine": "*"
     "@tauri-apps/api": ^1.5.0
     copy-webpack-plugin: ^11.0.0
-    react: ^18.2.0
-    react-dom: ^18.2.0
+    react: 18.2.0
+    react-dom: 18.2.0
     react-native-qrcode-svg: ^6.2.0
     react-native-reanimated: 3.3.0
     react-native-svg: 13.10.0
     react-native-web: ^0.18.12
     react-router-dom: ^6.10.0
-    valtio: 1.10.5
+    valtio: 1.13.0
   languageName: unknown
   linkType: soft
 
@@ -8173,9 +8147,9 @@ __metadata:
     "@babel/core": ^7.20.0
     "@babel/preset-env": ^7.20.0
     "@babel/runtime": ^7.20.0
-    "@babylonjs/core": ^6.38.1
-    "@babylonjs/gui": ^6.38.1
-    "@babylonjs/loaders": ^6.38.1
+    "@babylonjs/core": 6.38.1
+    "@babylonjs/gui": 6.38.1
+    "@babylonjs/loaders": 6.38.1
     "@babylonjs/react-native": ^1.8.2
     "@babylonjs/react-native-iosandroid-0-71": ^1.8.2
     "@react-native/babel-preset": 0.73.19
@@ -8188,7 +8162,7 @@ __metadata:
     react-native: 0.73.2
     react-native-permissions: ^4.0.4
     react-test-renderer: 18.2.0
-    valtio: ^1.13.0
+    valtio: 1.13.0
   languageName: unknown
   linkType: soft
 
@@ -8447,7 +8421,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:18.2.0, react-dom@npm:^18.2.0":
+"react-dom@npm:18.2.0":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
   dependencies:
@@ -8708,7 +8682,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.2.0, react@npm:^18.2.0":
+"react@npm:18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
   dependencies:
@@ -10127,22 +10101,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"valtio@npm:1.10.5":
-  version: 1.10.5
-  resolution: "valtio@npm:1.10.5"
-  dependencies:
-    proxy-compare: 2.5.1
-    use-sync-external-store: 1.2.0
-  peerDependencies:
-    react: ">=16.8"
-  peerDependenciesMeta:
-    react:
-      optional: true
-  checksum: a01d7cca44b3ff60213aa40470c42083f7522d8e2c2f2d9f696b0aa3eec4c3dba7393831d5ff47db1ad025904860d2788ce4d9654963ff3555481deb25376851
-  languageName: node
-  linkType: hard
-
-"valtio@npm:^1.13.0":
+"valtio@npm:1.13.0":
   version: 1.13.0
   resolution: "valtio@npm:1.13.0"
   dependencies:
